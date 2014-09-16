@@ -1,0 +1,165 @@
+body {
+    background-color: white;
+  padding-top:30x;
+  padding-bottom: 30px;
+}
+
+
+.navbar {
+
+}
+
+.nav a {
+	color: #5a5a5a;
+	font-size:18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.nav li{
+	display: inline;
+	left: auto;
+	right: auto;
+	}
+
+.jumbotron{
+	background-image: url(picture2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-height: 500px;
+	height: 600px;
+	vertical-align:baseline;
+}
+
+
+.jumbotron .text{
+	color: white;
+	right: 50px;
+	left: 50px;
+    position:absolute;
+    text-align:right;
+    top: 200px;
+	}
+	
+.jumbotron h1{
+text-align: right;
+right: 50px;
+}
+
+h1{
+	text-align: center;
+	padding-top: 15px;
+	font-weight: bold;
+	font-size: 75px;
+
+	}
+
+
+.col-md-4 a{
+	color: white;
+	}
+
+ .blake{
+	background-image : url("http://mshsl.org/mshsl/upload/MSHSL115128blake.jpg");
+	background-size: 500px 300px;
+	border-radius: 5px;
+	height: 300px;
+	padding-top: 140px;
+	text-transform: uppercase;
+	font-size: 24px;
+	text-align: center;
+}
+
+.midd{
+	background-image : url("http://sites.middlebury.edu/middccg/files/2011/02/Middlebury_College.jpg");
+	background-size: 500px 300px;
+	border-radius: 5px;
+	height: 300px;
+	padding-top: 140px;
+	text-transform: uppercase;
+	font-size: 24px;
+	text-align: center;
+}
+
+.ct{
+	background-image : url("http://www.fzp.co.za/wp-content/uploads/2013/11/capetown_apartments.jpg");
+	background-size: 600px 300px;
+	border-radius: 5px;
+	height: 300px;
+	padding-top: 140px;
+	text-transform: uppercase;
+	font-size: 24px;
+	text-align: center;
+}
+
+.content2 p{
+font-size: 15px;
+  font-family: 'Georgia';
+}
+
+.content2 li{
+font-size: 15px;
+font-family: 'Georgia';
+padding-top: 10px;
+}
+
+.content2 h3 {
+	padding-top: 15px;
+	font-size: 20px;
+	color: #909090 ;
+	text-transform: uppercase;
+	}
+	
+.img-thumbnail {
+height: 300px;
+width: 300px;
+float: right;
+}
+
+.img-circle{
+opacity: 1;
+height: 200px;
+width:200px;
+align:center;
+}
+
+.interests .col-md-3{
+	display: inline-block;
+	text-align: center;
+}
+
+.interests p{
+font-size: 20px;
+visibility: hidden;
+}
+
+
+.interests .img-circle:hover {
+    opacity: .3;
+    filter: alpha(opacity=30);
+}
+
+.interests .img-circle:hover  .interests p{
+visibility: visible;
+}
+
+.skills .label{
+padding-right: 15px;
+
+}
+
+.contact {
+text-align: center;
+
+}
+
+.icons {
+position: relative;
+left: 38%;
+}
+
+.contact-link{
+height: 40px;
+width: 40px;
+}
+
