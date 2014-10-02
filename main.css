@@ -13,18 +13,20 @@ min-height: 85px;
 }
 
 .nav a {
-	color: #5a5a5a;
-	font-size:26px;
+	color: #C8C8C8 ;
+	font-size:24px;
 	font-weight: bold;
 	text-transform: uppercase;
+}
+
+.nav ul{
+	padding-left:20px;
 }
 
 .nav li{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	display: inline;
-	left: auto;
-	right: auto;
 	}
 
 .jumbotron{
@@ -150,6 +152,7 @@ display: none;
 }
 
 .interests .group:hover .text{
+color: #5a5a5a;
 position: absolute;
 visibility: visible;
 text-transform: uppercase;
