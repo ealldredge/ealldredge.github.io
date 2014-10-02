@@ -9,17 +9,19 @@ font-family: 'jaf-facitweb', Arial, sans-serif;
 
 
 .navbar {
-
+height: 85px;
 }
 
 .nav a {
 	color: #5a5a5a;
-	font-size:18px;
+	font-size:30px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
 .nav li{
+	padding-top: 10px;
+	padding-bottom: 10px;
 	display: inline;
 	left: auto;
 	right: auto;
@@ -131,19 +133,30 @@ align:center;
 	text-align: center;
 }
 
-.interests p{
-font-size: 20px;
-visibility: hidden;
+.interests .text{
+display: none;
 }
 
 
-.interests .img-circle:hover {
+.interests .group:hover .img-circle{
     opacity: .3;
     filter: alpha(opacity=30);
 }
 
-.interests .img-circle:hover  .interests p{
+.interests .group:hover .text{
+position: absolute;
 visibility: visible;
+text-transform: uppercase;
+font-size: 24px;
+font-weight: bold;
+width: 100%;
+text-align: center;
+display:block;
+ padding: 0;
+    margin: 0;
+    top: 30%;
+    left: 0%;
+
 }
 
 .skills .label{
