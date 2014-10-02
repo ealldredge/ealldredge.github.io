@@ -9,12 +9,12 @@ font-family: 'jaf-facitweb', Arial, sans-serif;
 
 
 .navbar {
-height: 85px;
+min-height: 85px;
 }
 
 .nav a {
 	color: #5a5a5a;
-	font-size:30px;
+	font-size:26px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -39,16 +39,21 @@ height: 85px;
 
 .jumbotron .text{
 	color: white;
-	right: 50px;
+	padding-right: 20px;
 	left: 50px;
-    position:absolute;
+    position:relative;
     text-align:right;
     top: 200px;
 	}
 	
 .jumbotron h1{
-text-align: right;
-right: 50px;
+	padding-right: 20px;
+	text-align: right;
+}
+
+.jumbotron p{
+	padding-right: 20px;
+	text-align: right;
 }
 
 h1{
@@ -115,10 +120,11 @@ padding-top: 10px;
 	text-transform: uppercase;
 	}
 	
-.img-thumbnail {
-height: 300px;
-width: 300px;
-float: right;
+
+.img-thumbnail{
+	width: 300px;
+	height: 300px;
+	float: right;
 }
 
 .img-circle{
